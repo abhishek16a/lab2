@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvOutputScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:layout_marginLeft="170dp"/>
+
+    <Button
+        android:id="@+id/btnHigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="high"
+        android:layout_margin="50dp"/>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="go"
+        android:layout_margin="50dp"/>
+
+    <Button
+        android:id="@+id/btnLow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="low"
+        android:layout_margin="50dp"/>
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvOutput"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+</LinearLayout>
