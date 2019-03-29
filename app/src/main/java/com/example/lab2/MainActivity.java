@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         btnGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                number=random.nextInt(100); //generate random number between 1 to 50
+                number=random.nextInt(100); //generate random number between 1 to 100
                 tvOutput.setText("" +number);
                 Score=0;
 
@@ -62,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 numberNew=random.nextInt(100) -1;
                 tvOutput.setText("" + numberNew);
+
+                btnLow.setText("" +number);
                 if (numberNew<=number){
                     Score--;
                     tvOutputScore.setText("Score: " + Score );
@@ -83,6 +85,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 numberNew=random.nextInt(100) +1;
                 tvOutput.setText("" + numberNew);
+
+                btnHigh.setText("" +number);
                 if (numberNew>=number){
                     Score++;
                     tvOutputScore.setText("Score: " + Score);
