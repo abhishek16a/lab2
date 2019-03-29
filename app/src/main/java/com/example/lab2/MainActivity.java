@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         btnHigh= findViewById(R.id.btnHigh);
         btnLow= findViewById(R.id.btnLow);
 
-        String member = String.valueOf(number);
-
-        btnHigh.setText(member);
-        btnLow.setText(member);
+//        String member = String.valueOf(number);
+//
+//        btnHigh.setText(member);
+//        btnLow.setText(member);
 
         tvOutputScore=findViewById(R.id.tvOutputScore);
         tvOutput=findViewById(R.id.tvOutput);
